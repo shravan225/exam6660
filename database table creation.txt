@@ -1,0 +1,8 @@
+$servername = "localhost"'
+$username = "root";
+$password = "";
+$database = "dbsam";
+$conn = mysqli_connect($servername,$username,$password,$database);
+echo "connection was successfull";
+$sql = "create table 'table name' ('sno' int (5), 'name' varchar(12), primary key ('sno'))";
+?>
